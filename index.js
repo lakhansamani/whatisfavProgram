@@ -1,8 +1,8 @@
 console.log("Hello World");
 function add(a,b){
-	console.log(a+b);
+	return a+b;
 }
-add(5,4);
+console.log(add(5,4));
 
 function sub(a,b){
 	return a-b;
